@@ -10,7 +10,11 @@ Longclaw
 
 .. image:: https://travis-ci.org/JamesRamm/longclaw.svg?branch=master
     :target: https://travis-ci.org/JamesRamm/longclaw
-    
+
+.. image:: https://pyup.io/repos/github/JamesRamm/longclaw/shield.svg
+     :target: https://pyup.io/repos/github/JamesRamm/longclaw/
+     :alt: Updates
+
 .. image:: https://readthedocs.org/projects/longclaw/badge/?version=latest
     :target: http://longclaw.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
@@ -18,16 +22,15 @@ Longclaw
 An e-commerce extension for `Wagtail CMS <https://github.com/wagtail/wagtail>`_
 Checkout the `demo site <https://github.com/JamesRamm/longclaw_demo>`_ and `documentation <http://longclaw.readthedocs.io/en/latest/>`_
 
-  .. figure:: docs/_static/images/dashboard.png
-     
-     Longclaw dashboard
+.. image:: docs/_static/images/dashboard.png
+    :alt: Longclaw dashboard
 
 Quickstart
 ----------
 Install Longclaw::
 
   $ pip install longclaw
-    
+
 Setup a Wagtail+Longclaw project::
 
   $ longclaw start my_project
@@ -38,11 +41,11 @@ Features
 View and fulfill orders from the Wagtail admin
 +++++++++++++++++++++++++++++++++++++++++++++++
 
-  .. figure:: docs/_static/images/order_list.png
-     
-     The orders list can be sorted and filtered by status, date or customer
+.. image:: docs/_static/images/order_list.png
 
-  .. figure:: docs/_static/images/order_detail.png
+The orders list can be sorted and filtered by status, date or customer
+
+.. image:: docs/_static/images/order_detail.png
 
 Variable Shipping Rates
 +++++++++++++++++++++++
@@ -66,10 +69,10 @@ Test Coverage
 
 .. image:: https://codecov.io/gh/JamesRamm/longclaw/branch/master/graphs/tree.svg
 
-    
+
 Support
 --------
 
-Please raise bugs/feature requests using the github issue tracker and ask questions on stackoverflow. 
+Please raise bugs/feature requests using the github issue tracker and ask questions on stackoverflow.
 
 
